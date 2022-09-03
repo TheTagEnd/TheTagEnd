@@ -42,3 +42,18 @@ body{
     color: aliceblue;
 
 }
+.dropdown{
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+
+#language{
+    padding:5px 10px ;
+    border-radius: 10px;
+    color:rgba(236, 241, 0, 1);
+    background-color: rgba(63, 63, 63, 1);
+    outline: none;
+    border: none;
+
+}
