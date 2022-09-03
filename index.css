@@ -1,0 +1,26 @@
+.top{
+    flex:auto;
+    text-align: center;
+}
+
+.tag1{
+    display: inline-block;
+    color:rgba(42, 252, 8, 1)
+
+
+}
+.tag2{
+    display: inline-block;
+    color: crimson;
+
+
+}
+.tag3{
+    display: inline-block;
+    color: rgba(13, 70, 218, 1);
+
+
+}
+body{
+  background-color:   rgba(37, 37, 37, 1);
+}
