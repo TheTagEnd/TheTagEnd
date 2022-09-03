@@ -1,20 +1,24 @@
 import React from 'react'
+import play from "./images/play.png";
+import stop from "./images/stop.png";
+import download from "./images/download.png";
+
+
 function Play(){
     return (
-            <div className="playarea">
-                <button className="playbutton">
-                    <div className="playpng"> </div>
-                </button>
+        <div className="playarea">
+            <button className="playbutton">
+                <img className="playpng"  src={play} alt="Play" />
+            </button>
 
-                <button className="stopbutton">
-                    <div className="stoppng">  </div>
+            <button className="stopbutton">
+                <img className="stoppng" src={stop} alt="Stop"/>
+            </button>
 
-                </button>
-
-                <button className="downloadbutton">
-                    <div className="downloadpng"> </div>
-                </button>
-            </div>
+            <button className="downloadbutton">
+                <img className="download" src={download}alt="Download" />
+            </button>
+        </div>
                );
 
 }

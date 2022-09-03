@@ -4,11 +4,12 @@ function Editor(){
 
  return (
         <div className="editor">
+
+
             <div className="no">
 
             </div>
-            <div className="textarea">
-
+            <div contentEditable className="textarea">
             </div>
 
         </div>
