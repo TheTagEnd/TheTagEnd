@@ -67,7 +67,7 @@ body{
 }
 .editor{
       display: flex;
-    flex:40%;
+       flex:40%;
 
     margin-top: 10px;
     margin-left: 28px;
@@ -89,7 +89,7 @@ body{
 
 
 .playarea{
-    flex:15%;
+    flex:auto;
     border-radius: 10px;
     margin-top: 180px;
     margin-left: 15px;
@@ -172,10 +172,8 @@ body{
 }
 .playarea{
 
-    display: grid;
+    display: grid;}
 
-
-}
 
 
 
