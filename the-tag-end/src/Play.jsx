@@ -3,15 +3,16 @@ function Play(){
     return (
             <div className="playarea">
                 <button className="playbutton">
-                    <img className="playpng" src="./images/play.png"  />
+                    <div className="playpng"> </div>
                 </button>
 
                 <button className="stopbutton">
-                    <img className="stoppng" src="./images/stop.png"/>
+                    <div className="stoppng">  </div>
+
                 </button>
 
                 <button className="downloadbutton">
-                    <img className="download" src="./images/download.png" />
+                    <div className="downloadpng"> </div>
                 </button>
             </div>
                );
